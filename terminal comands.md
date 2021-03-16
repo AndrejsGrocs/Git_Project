@@ -64,6 +64,10 @@ Some commands are repeating but it is better for you to know all.
 >8. To view a repo’s config: **git config -l**
 >9. To view your Git global configuration: **git config -l --global**
 >10. To view remote repo link:  **git remote -v**
+>11. To pull changes from a repo on GitHub: **git pull**
+>12. To push a branch and set upstream: **git push origin -u <branch name>**
+>13. To push your changes to GitHub: **git push**
+>14. To clone a repo: **git clone <repo ssh link>** 
 
 To change the title of your main branch. 
 >**git branch -M main** 
@@ -73,6 +77,8 @@ main is the new name of the branch.
 To change the title of your default branch forever.
 
 >**git config --global init.defaultBranch main**
+<br>
+main is the new name of the branch.
 
 
 
